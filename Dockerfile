@@ -16,6 +16,7 @@ COPY humanitarian_env.py .
 COPY inference.py .
 COPY openenv.yaml .
 COPY server/ ./server/
+COPY baseline_scores.json .
 
 # expose FastAPI port (HF Spaces uses 7860)
 EXPOSE 7860
