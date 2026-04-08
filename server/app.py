@@ -17,7 +17,7 @@ from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 
-from humanitarian_env import (
+from Humanitarian_Agent.humanitarian_env import (
     Action,
     GraderResult,
     HumanitarianAidEnv,

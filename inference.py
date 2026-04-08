@@ -20,7 +20,7 @@ from typing import Dict, List, Optional
 
 from openai import OpenAI
 
-from humanitarian_env import Action, HumanitarianAidEnv
+from Humanitarian_Agent.humanitarian_env import Action, HumanitarianAidEnv
 
 # ---------------------------------------------------------------------------
 # Config from environment variables
